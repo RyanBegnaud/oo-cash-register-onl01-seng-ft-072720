@@ -28,5 +28,6 @@ class CashRegister
   def items 
     @@all 
   end
+  end
 end
   
