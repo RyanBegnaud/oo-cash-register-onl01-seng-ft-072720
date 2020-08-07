@@ -16,7 +16,6 @@ class CashRegister
   dis = @total * 0.20
   @total = @total - dis
   
-  binding.pry
   end
     
 end
