@@ -4,7 +4,6 @@ class CashRegister
   def initialize(discount = 0)
     @discount = discount 
     @total = 0
-    binding.pry
   end 
   
   def add_item(item, price, quantity = 1)
