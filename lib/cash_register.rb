@@ -17,7 +17,8 @@ class CashRegister
   dis = @total * 0.20
   @total = @total - dis
   total = @total
-  puts "After the discount, the total comes to #{@total}."
+  binding.rpy
+  puts "After the discount, the total comes to #{total}."
   
   end
     
