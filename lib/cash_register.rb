@@ -21,7 +21,7 @@ class CashRegister
     dis = @total * 0.20
     @total = @total - dis
     total = @total
-  "After the discount, the total comes to #{total}."
+    "After the discount, the total comes to #{total}."
   
   end
     
